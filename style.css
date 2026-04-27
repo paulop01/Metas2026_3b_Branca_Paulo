@@ -14,3 +14,13 @@ body {
     color: var(--branco);
     font-family: 'Times New Roman', Times, serif;
 }
+
+.conteudo-pricipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
