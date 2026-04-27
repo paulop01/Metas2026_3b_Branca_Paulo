@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap&#39');
 
 :root {
-    --cor-de-fundo: #000f66;
-    --grifar: #008cff;
+    --cor-de-fundo: #1B32FA;
+    --grifar: #9821FA;
     --branco: #ffffff;
+    --botao-ativo: #3285FA;
+    --botao-inativo: #000c7c;
+    --texto-fundo: #000000;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Times New Roman', Times, serif;
 }
