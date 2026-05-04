@@ -50,3 +50,26 @@ body {
 .botao:first-child{
     border-radius: 40px 40px 0 0;
 }
+
+.botoes{
+    display: block;
+}
+
+.botao.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: var(--grifar);
+}
+
+.abas.textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+.aba-conteudo.ativa{
+    display: block;
+}
+
+.aba-conteudo{
+    display: none;
+}
